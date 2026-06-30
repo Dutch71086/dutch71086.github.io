@@ -564,7 +564,7 @@
           </div>
           <div class="hero-stat" role="listitem">
             <span class="num">IL</span>
-            <span class="label">Houston TX</span>
+            <span class="label">Chicago IL</span>
           </div>
         </div>
       </div>
