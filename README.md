@@ -1072,6 +1072,6 @@
       // Simple hero stats are static — let CSS animations handle bar fills
     })();
   </script>
-
+<div class="ccwallet__tipbox__button" data-url="https://cwallet.com/t/13G53GA2" data-button-type="button" data-button-text="Join group" data-button-style="black"></div> <script async src="https://cwallet.com/opencc.js"></script>
 </body>
 </html>
