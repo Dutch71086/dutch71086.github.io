@@ -1,6 +1,8 @@
 
 <html lang="en" data-theme="dark">
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4936383832290016"
+     crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Justin Horton — Developer Portfolio</title>
