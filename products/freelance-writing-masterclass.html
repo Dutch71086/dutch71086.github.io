@@ -98,7 +98,7 @@
       <h3>Freelance Writing Masterclass</h3>
       <div class="price">$49 <small>one-time payment</small></div>
       <button class="buy-btn" id="buyBtn">Buy Now — $49</button>
-      <div class="secure">Secure checkout powered by Stripe</div>
+      <div class="secure">Secure checkout powered by PayPal</div>
       <p style="font-size:0.8rem; color:#64748b; margin-top:1rem;">Instant access after purchase. All sales are final after 14 days.</p>
     </div>
   </div>
@@ -136,12 +136,12 @@
     // 1. Create a product in Stripe Dashboard (https://dashboard.stripe.com/products)
     // 2. Create a Checkout session and copy the URL
     // 3. Replace the URL below:
-    const stripeUrl = 'https://checkout.stripe.com/pay/cs_YOUR_CHECKOUT_SESSION_ID';
+    const paypalUrl = 'https://paypal.me/YOUR_PAYPAL_ME_LINK';
     if (stripeUrl.includes('YOUR_CHECKOUT_SESSION_ID')) {
-      alert('Stripe checkout not configured yet. Please set up your Stripe product and checkout session, then update the URL in products/freelance-writing-masterclass.html');
+      alert('PayPal checkout not configured yet. Please set up your Stripe product and checkout session, then update the URL in products/freelance-writing-masterclass.html');
       return;
     }
-    window.location.href = stripeUrl;
+    window.location.href = paypalUrl;
   });
 
   function toggle(el) {

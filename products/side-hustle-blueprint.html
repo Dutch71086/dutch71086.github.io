@@ -91,7 +91,7 @@
       <h3>Side Hustle Blueprint</h3>
       <div class="price">$24 <small>one-time payment</small></div>
       <button class="buy-btn" id="buyBtn">Buy Guide — $24</button>
-      <div class="secure">Secure checkout powered by Stripe</div>
+      <div class="secure">Secure checkout powered by PayPal</div>
       <p style="font-size:0.8rem; color:#64748b; margin-top:1rem;">Instant PDF download after purchase.</p>
     </div>
   </div>
@@ -121,12 +121,12 @@
 <script>
   const buyBtn = document.getElementById('buyBtn');
   buyBtn.addEventListener('click', () => {
-    const stripeUrl = 'https://checkout.stripe.com/pay/cs_YOUR_CHECKOUT_SESSION_ID';
+    const paypalUrl = 'https://paypal.me/YOUR_PAYPAL_ME_LINK';
     if (stripeUrl.includes('YOUR_CHECKOUT_SESSION_ID')) {
-      alert('Stripe checkout not configured yet. Please set up your Stripe product and checkout session, then update the URL in products/side-hustle-blueprint.html');
+      alert('PayPal checkout not configured yet. Please set up your Stripe product and checkout session, then update the URL in products/side-hustle-blueprint.html');
       return;
     }
-    window.location.href = stripeUrl;
+    window.location.href = paypalUrl;
   });
 
   function toggle(el) {
