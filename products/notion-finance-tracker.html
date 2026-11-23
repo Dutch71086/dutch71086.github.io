@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notion Finance Tracker | Earn More</title>
+<link rel="canonical" href="https://dutch71086.github.io/products/notion-finance-tracker.html">
+<meta property="og:title" content="Notion Finance Tracker | Earn More">
+<meta property="og:url" content="https://dutch71086.github.io/products/notion-finance-tracker.html">
+<meta name="description" content="Track income, expenses, savings goals, and side-hustle revenue in one clean dashboard. Built for freelancers and gig workers.">
+<meta name="robots" content="index, follow">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #1e293b; background: #f8fafc; }
+  a { color: inherit; text-decoration: none; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+  header { background: #2563eb; color: white; padding: 3rem 0; text-align: center; margin-bottom: 2rem; }
+  header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  header p { font-size: 1.1rem; color: #cbd5e1; }
+  .back { display: inline-block; margin-bottom: 1.5rem; color: #2563eb; text-decoration: underline; font-size: 0.9rem; }
+  .product-grid { display: grid; grid-template-columns: 1fr; gap: 2rem; margin-bottom: 3rem; }
+  @media (min-width: 768px) { .product-grid { grid-template-columns: 2fr 1fr; } }
+  .sales-copy { background: #fff; padding: 2.5rem; border-radius: 10px; border: 1px solid #e2e8f0; }
+  .sales-copy h2 { color: #2563eb; margin: 1.5rem 0 0.75rem; font-size: 1.4rem; }
+  .sales-copy p { margin-bottom: 1rem; color: #334155; }
+  .sales-copy ul { margin: 0.5rem 0 1rem 1.5rem; color: #334155; }
+  .sales-copy li { margin-bottom: 0.4rem; }
+  .checkout-card { background: #fff; padding: 2rem; border-radius: 10px; border: 1px solid #e2e8f0; position: sticky; top: 1rem; }
+  @media (max-width: 767px) { .checkout-card { position: static; } }
+  .checkout-card h3 { margin-bottom: 1rem; color: #1e293b; font-size: 1.25rem; }
+  .price { font-size: 2rem; font-weight: 800; color: #2563eb; margin-bottom: 0.5rem; }
+  .price small { font-size: 0.85rem; color: #64748b; font-weight: normal; }
+  .buy-btn { width: 100%; padding: 1rem; background: #059669; color: white; border: none; border-radius: 6px; font-size: 1.1rem; font-weight: 700; cursor: pointer; margin-bottom: 0.75rem; transition: background 0.2s; }
+  .buy-btn:hover { background: #047857; }
+  .secure { font-size: 0.8rem; color: #64748b; text-align: center; margin-top: 0.5rem; }
+  footer { text-align: center; color: #64748b; font-size: 0.85rem; padding: 3rem 0; border-top: 1px solid #e2e8f0; margin-top: 3rem; }
+</style>
+</head>
+<body>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4936383832290016"
+     data-ad-slot="8654228986"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+<header>
+  <h1>Notion Finance Tracker</h1>
+  <p>Track income, expenses, savings goals, and side-hustle revenue in one clean dashboard.</p>
+</header>
+
+<div class="container">
+  <a href="index.html" class="back">← Back to Home</a>
+
+  <div class="product-grid">
+    <div class="sales-copy">
+      <p>Stop mixing your side hustle money with your personal finances. This Notion dashboard is built specifically for freelancers, gig workers, and side-hustlers who need to track business income and expenses without paying for accounting software.</p>
+
+      <h2>What's Inside</h2>
+      <ul>
+        <li><strong>Income tracker:</strong> Log every payment from clients and platforms</li>
+        <li><strong>Expense tracker:</strong> Categorize business expenses for tax time</li>
+        <li><strong>Savings goals:</strong> Set and track money goals (taxes, equipment, vacation)</li>
+        <li><strong>Monthly reports:</strong> See profit/loss at a glance</li>
+        <li><strong>Tax-ready export:</strong> Download your numbers for your accountant</li>
+        <li><strong>Client database:</strong> Track who you've invoiced and who still owes you</li>
+      </ul>
+
+      <h2>Why Notion?</h2>
+      <ul>
+        <li>Free to use (Notion's free plan covers everything)</li>
+        <li>Access from phone or computer</li>
+        <li>No monthly software fees</li>
+        <li>Customize it however you want</li>
+      </ul>
+    </div>
+
+    <div class="checkout-card">
+      <h3>Notion Finance Tracker</h3>
+      <div class="price">$19 <small>one-time payment</small></div>
+      <button class="buy-btn" id="buyBtn">Get Template — $19</button>
+      <div class="secure">Secure checkout powered by Stripe</div>
+      <p style="font-size:0.8rem; color:#64748b; margin-top:1rem;">Instant Notion template link after purchase.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Earn More. All rights reserved.<br>
+    Site: <a href="https://dutch71086.github.io/" style="color:#64748b;">dutch71086.github.io</a>
+  </footer>
+</div>
+
+<script>
+  const buyBtn = document.getElementById('buyBtn');
+  buyBtn.addEventListener('click', () => {
+    const stripeUrl = 'https://checkout.stripe.com/pay/cs_YOUR_CHECKOUT_SESSION_ID';
+    if (stripeUrl.includes('YOUR_CHECKOUT_SESSION_ID')) {
+      alert('Stripe checkout not configured yet. Please set up your Stripe product and checkout session, then update the URL in products/notion-finance-tracker.html');
+      return;
+    }
+    window.location.href = stripeUrl;
+  });
+</script>
+
+</body>
+</html>
